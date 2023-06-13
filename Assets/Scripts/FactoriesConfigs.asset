@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2785ede519906204793ed6e75fd75c06, type: 3}
+  m_Name: FactoriesConfigs
+  m_EditorClassIdentifier: 
+  buildableTileConfig:
+    prefab: {fileID: 8114861837608271261, guid: 975e0e8fdc9986444a651d9f6d8d6d92,
+      type: 3}
+    height: 0
+    cell: {x: 11, y: 20}
+  resourceTileConfig:
+    prefab: {fileID: 7936913140482638719, guid: 15bcdb0843c3e7c4bb364dee6938f32e,
+      type: 3}
+    height: 0
+    cell: {x: 31, y: 25}
+  farmTileConfig:
+    prefab: {fileID: 8114861837608271261, guid: a091a1d06c4ab4c4391e96a6f8664b41,
+      type: 3}
+    height: 0
+    cell: {x: 11, y: 20}
+  workerAgentConfig:
+    prefab: {fileID: 8644398595631722367, guid: c27be84bf7b1cec4b91d17cebdaeca63,
+      type: 3}
+    cell: {x: 26, y: 28}
+    height: 1
+    teamMaterialWorking: {fileID: 2100000, guid: 7c388bd1f835bd2468e46ff396a35de0,
+      type: 2}
+    teamMaterialStopped: {fileID: 2100000, guid: c1edd370dee7d714bb5074db8561f00d,
+      type: 2}
+    teamId: 0
+  explorerAgentConfig:
+    prefab: {fileID: 8644398595631722367, guid: c27be84bf7b1cec4b91d17cebdaeca63,
+      type: 3}
+    cell: {x: 0, y: 0}
+    height: 0
+    teamMaterialWorking: {fileID: 0}
+    teamMaterialStopped: {fileID: 0}
+    teamId: 0
+  houseBuildingConfig:
+    prefab: {fileID: 988662005126750099, guid: a59e63727d0d867429f2a756953300a7, type: 3}
+    cell: {x: 25, y: 28}
+    height: 1
+    teamMaterialWorking: {fileID: 2100000, guid: 7c388bd1f835bd2468e46ff396a35de0,
+      type: 2}
+    teamMaterialStopped: {fileID: 2100000, guid: c1edd370dee7d714bb5074db8561f00d,
+      type: 2}
+    teamId: 0
+  actionsFactoryConfig:
+    path:
+    - {x: 26, y: 20}
+    - {x: 27, y: 20}
